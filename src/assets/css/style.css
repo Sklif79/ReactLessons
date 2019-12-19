@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.article {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid #000;
+    padding: 20px;
+}
