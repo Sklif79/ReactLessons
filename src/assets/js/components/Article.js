@@ -5,11 +5,11 @@ function Article(props) {
     const {article} = props;
 
     return (
-        <div className="article">
+        <a href={article.url} className="article">
             <img src={article.imageURL} alt=""/>
             <Text text={article.text} />
             <div>{article.date}</div>
-        </div>
+        </a>
     )
 }
 
